@@ -63,5 +63,35 @@
           
 }
 
+.interlineado-texto {
+    line-height: 1.5 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .container-img-sumarse > img {
+          height: 138px;
+    }
+    .container-img {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-img-sumarse > img {
+          height: 150px;
+    }
+    .container-img {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .btn-sumarse {
+        
+    }
+    
+}
+
+
 
 
