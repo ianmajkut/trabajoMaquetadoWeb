@@ -44,8 +44,8 @@
 
 
 .cards-proceso{
-          height: 350px ;
-          width: 256px;
+        max-height: 350px ;
+        max-width: 256px;
           
           
 }
@@ -85,11 +85,21 @@
     }
 }
 
-@media screen and (max-width: 575px) {
-    .btn-sumarse {
-        
+@media screen and (max-width:767px) {
+    #sumarte {
+        display: none;
     }
-    
+
+    #sumarte-cell{
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) {
+  
+    #sumarte-cell{
+        display: none;
+    }
 }
 
 
