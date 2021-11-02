@@ -4,9 +4,9 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet" href="css/styles.css">
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
           
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+          <link rel="stylesheet" href="css/styles.css">
 
           <title>Document</title>
           
@@ -14,10 +14,10 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="images/iunigo_logo.jpg" alt="" style='height: 69px; width: 255px; object-fit: contain'>
+        <img src="../images/iunigo_logo.jpg" alt="iunigo_logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,46 +48,45 @@
     </div>
   </nav>
   
-<div class="container-fluid" style="background-color: #FFCBCD;">
-  <div class="container py-4" style="background-color: #FFCBCD;">
+<div class="container-fluid primer-seccion" >
+  <div class="container py-4" >
     <div class="row d-flex align-items-center">
       <div class="col-lg-6 col-12">
-        <h1 class="my-4 " style="color: #1B26BC; font-family:Walsheim-Bold ; ">
+        <h1 class="my-4 be-iunigo-text wls-bold" >
           BE-IÚNIGO
         </h1>
-        <p class="col-12  body-text-primer-seccion" style="font-size:3rem ;color: #FFFFFF; font-family:Walsheim-Bold ;">
+        <p class="col-12 body-text-primer-seccion wls-bold" >
           Sé parte de nuestro equipo de IT mediante el programa de #talentos
         </p>
         <button
-          class="btn w-50 my-3" style="background-color: #1B26BC; border-radius: 36px;" type="button"         
+          class="btn w-50 my-3" id="postulate"        
         >
-          <a href="#container-sumarse" class="text-decoration-none h4"
-          style=" font-family: Walsheim-Regular; color: white;">
+          <a href="#container-sumarse" class="text-decoration-none h4 wls-regular text-white">
           Postulate
           </a>
         </button>
       </div>
       <div class="col-lg-6 col-12 ">
-        <img class=" w-100 img-fluid" src="images/img_beiunigo.jpg" alt="" >
+        <img class=" w-100 img-fluid" src="../images/img_beiunigo.jpg" alt="be_iunigo_img" >
       </div>
     </div>
   </div>
 </div>
 
 
-<div class="container-fluid" style="background-color: #F3F2F5;" id="quienessomos">
-  <div class="container pt-5 pb-3" style="background-color: #F3F2F5;">
+<div class="container-fluid segunda-seccion">
+  <div class="container pt-5 pb-3" id="quienessomos">
     <div class="row d-flex ">
       <div class="col-lg-5 col-12 align-items-center text-center">
-        <img class="w-75 pb-3 img-fluid" style="max-height: 100%; max-width:100%;"  src="images/people_hero.png" alt="">
+        <img class="w-75 pb-3 img-fluid" src="../images/people_hero.png" alt="quienes_somos" id="img-quienes-somos">
       </div>
       <div class="col-lg-7 col-12 pt-3">
-        <h2 style=" font-family: Walsheim-Bold; ">Quiénes somos</h2>
-        <p class=" interlineado-texto" style="font-family: Walsheim-Regular; font-size: 1.25rem;">
+        <h2 class="wls-bold">Quiénes somos</h2>
+        <p class=" body-regular-text">
           Somos la nueva startup de seguros, una insuretech de rápido crecimiento
         </p>
         
-        <p class=" interlineado-texto" style="font-family: Walsheim-Regular; font-size: 1.25rem;">
+        <p class=" body-regular-text">
           Somos un equipo de profesionales muuuy diferentes. Venimos del mundo de la tecnología, la comunicación, el seguro y ¡hasta la biología! Pero tenemos algo en común, entre nosotros y con vos. Vivimos en un mundo conectado y nos gustan las cosas simples y claras. Por eso nos hicimos una pregunta que seguramente vos también te hiciste. ¿Por qué no hay un seguro simple, que se entienda y el cual además de brindarme cobertura ante un accidente me permita gestionar todos los servicios vinculados a mi auto? Desde ese día nos pusimos a trabajar y creamos iúnigo.
         </p>
         
@@ -95,80 +94,80 @@
     </div>
   </div>
 
-  <div class="container pt-2 pb-5" style="background-color: #F3F2F5;" id="beiunigo">
+  <div class="container pt-2 pb-5" id="beiunigo">
     <div class="row d-flex align-items-center">
       <div class="col-lg-7 col-12">
-        <h2 style="font-family: Walsheim-Bold; ">Qué es BE iúnigo</h2>
-        <p class=" interlineado-texto" style=" font-family: Walsheim-Regular; font-size: 1.25rem;">
+        <h2 class="wls-bold" >Qué es BE iúnigo</h2>
+        <p class="body-regular-text">
           Es el programa de desarrollo para programadores Front-end, Back-end y Full stack en nuestro equipo IT.
         </p>
         
-        <p class=" interlineado-texto" style=" font-family: Walsheim-Regular; font-size: 1.25rem;">
+        <p class="body-regular-text">
           Nuestros equipos están compuestos por células multidisciplinarias, conformado por 8 personas donde en cada uno de ellos participan programadores. Al participar en uno de estos equipos tendrás trainings y capacitaciones y el desafío de innovar!
         </p>
         
       </div>
       <div class="col-lg-5 col-12">
-        <img class="w-100 mt-5" src="images/que_es.jpg" alt="" >
+        <img class="w-100 mt-5" src="../images/que_es.jpg" alt="que_es_beiunigo" >
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid" style="background-color: #E8E9F7;" id="proceso">
-  <div class="container py-5">
-    <h2 style=" font-family: Walsheim-Bold;">Pasos del proceso</h2>
+<div class="container-fluid tercer-seccion" >
+  <div class="container py-5" id="proceso">
+    <h2 class="wls-bold">Pasos del proceso</h2>
     <div class="row mt-4">
-      <div class="col-12 col-sm-6 col-lg-3 cards-proceso mt-3">
-        <div class="card text-center align-items-center h-100 w-100" style="border-radius: 18px ; border-color: #9B9BA5;">
-          <img src="images/inscripcion.png" class="m-4 img-fluid" style="max-width: 100px; max-height: 100px;" alt="...">
+      <div class="col-12 col-sm-6 col-lg-3 mt-3">
+        <div class="card card-proceso text-center align-items-center h-100 w-100">
+          <img src="../images/inscripcion.png" class="m-4 img-fluid" alt="inscripcion_img">
           <div class="card-body">
-            <p class="card-title" style="font-family: Walsheim-Bold; font-size: 1.9375rem;">Inscripción</p>
+            <p class="card-title">Inscripción</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3 cards-proceso mt-3">
-        <div class="card text-center align-items-center h-100 w-100" style="border-radius: 18px ; border-color: #9B9BA5;">
-          <img src="images/test_online.png" class="m-4 img-fluid" style="max-width: 100px; max-height: 100px;" alt="...">
+      <div class="col-12 col-sm-6 col-lg-3 mt-3">
+        <div class="card card-proceso text-center align-items-center h-100 w-100">
+          <img src="../images/test_online.png" class="m-4 img-fluid" alt="test_img">
           <div class="card-body">
-            <p class="card-title" style="font-family: Walsheim-Bold; font-size: 1.9375rem;">Test Online </p>
-            <p class="card-text" style=" font-family: Walsheim-Regular; font-size: 1.25rem;">(TERP + Test Técnico Múltiple Choice)</p>
+            <p class="card-title">Test Online </p>
+            <p class="card-text">(TERP + Test Técnico Múltiple Choice)</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3 cards-proceso mt-3">
-        <div class="card text-center align-items-center h-100 w-100" style="border-radius: 18px ; border-color: #9B9BA5;">
-          <img src="images/dinamica_grupal.png" class="m-4 img-fluid" style="max-width: 100px; max-height: 100px;" alt="...">
+      <div class="col-12 col-sm-6 col-lg-3 mt-3">
+        <div class="card card-proceso text-center align-items-center h-100 w-100" >
+          <img src="../images/dinamica_grupal.png" class="m-4 img-fluid" alt="dinamica_grupal_img">
           <div class="card-body">
-            <p class="card-title" style=" font-family: Walsheim-Bold; font-size: 1.9375rem;">Dinámica Grupal Online</p>
+            <p class="card-title">Dinámica Grupal Online</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3 cards-proceso mt-3">
-        <div class="card text-center align-items-center h-100 w-100" style="border-radius: 18px ; border-color: #9B9BA5;">
-          <img src="images/hackaton.png" class="m-4 img-fluid" style="max-width: 100px; max-height: 100px;" alt="...">
+      <div class="col-12 col-sm-6 col-lg-3 mt-3">
+        <div class="card card-proceso text-center align-items-center h-100 w-100">
+          <img src="../images/hackaton.png" class="m-4 img-fluid" alt="hackaton_img">
           <div class="card-body">
-            <p class="card-title" style=" font-family: Walsheim-Bold; font-size: 1.9375rem;">Hackaton</p>
-            <p class="card-text" style=" font-family: Walsheim-Regular; font-size: 1.25rem;">(con 24 a 30 candidatos)</p>
+            <p class="card-title">Hackaton</p>
+            <p class="card-text">(con 24 a 30 candidatos)</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container my-5" id="quebuscamos">
-      <div class="row d-flex align-items-center">
+    <div class="container my-5">
+      <div class="row d-flex align-items-center" id="quebuscamos">
         <div class="col-lg-5 ">
-          <img class="w-100 p-5" src="images/q_buscamos.jpg" alt="">
+          <img class="w-100 p-5" src="../images/q_buscamos.jpg" alt="que_buscamos_img">
         </div>
-        <div class="col-lg-7 col-12">
-          <h2 style=" font-family: Walsheim-Bold;">Qué buscamos</h2>
-          <p class=" interlineado-texto"style=" font-family: Walsheim-Regular; font-size: 1.25rem;">
+        <div class="col-lg-7 col-12" >
+          <h2 class="wls-bold">Qué buscamos</h2>
+          <p class="body-regular-text">
             Buscamos perfiles Back-end y de Front-end con ganas de hacer crecer nuestra plataforma web/mobile basada en microservicios dentro de un ambiente profesional y relajado.
           </p>
-          <p class=" interlineado-texto"style=" font-family: Walsheim-Regular ; font-size: 1.25rem;">
+          <p class="body-regular-text">
             Valoramos que seas: 
           </p>
-          <p class=" interlineado-texto"style=" font-family: Walsheim-Bold; color: #FF7E82 ; font-size: 1.25rem;">
+          <p class="wls-bold que-buscamos-valoramos-text">
             PROACTIVO - CURIOSO - AUTÓNOMO
           </p>
           
@@ -179,29 +178,38 @@
   </div>  
 </div>
 
-<div class="container-fluid container-beneficios pb-5" style="background-color: #F8F8F8;" id="beneficios">
+<div class="container-fluid container-beneficios pb-5" id="beneficios">
   <div class="container ">
-    <h2 class="py-5" style="font-family: Walsheim-Bold;">Beneficios</h2>
+    <h2 class="py-5 wls-bold">Beneficios</h2>
     
     <div class="row d-flex ">
       <div class="col-12 col-md-4 mb-3 ">
-        <div class="card text-center align-items-center h-100 w-100 py-4 mx-auto" style="max-width: 350px; max-height: 200px; border-radius: 18px ; border-color: #FF7E82; background-color: #FEE5E4;">
-          <p style="font-family: Walsheim-Bold;  color: #FF7E82; font-size: 1.875rem;">
-            01. <br>Flexibilidad <br>Horaria
+        <div class="card card-beneficios text-center align-items-center h-100 w-100 py-4 mx-auto">
+          <p class="num">
+            01.
+          </p>
+          <p class="text">
+            Flexibilidad <br>Horaria
           </p>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-3">
-        <div class="card text-center align-items-center h-100 w-100 py-4 mx-auto" style="max-width: 350px; max-height: 200px; border-radius: 18px ; border-color: #FF7E82; background-color: #FEE5E4;">
-          <p style="font-family: Walsheim-Bold;  color: #FF7E82; font-size: 1.875rem;">
-            02. <br>Tres Semanas <br>De Vacaciones
+        <div class="card card-beneficios text-center align-items-center h-100 w-100 py-4 mx-auto" >
+          <p class="num">
+            02.
+          </p>
+          <p class="text">
+            Tres Semanas <br>De Vacaciones
           </p>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-3">
-        <div class="card text-center align-items-center h-100 w-100 py-4 mx-auto" style="max-width: 350px; max-height: 200px; border-radius: 18px ; border-color: #FF7E82; background-color: #FEE5E4;">
-          <p style="font-family: Walsheim-Bold;  color: #FF7E82; font-size: 1.875rem;">
-            03. <br>Cobertura De <br>Gimnasios
+        <div class="card card-beneficios text-center align-items-center h-100 w-100 py-4 mx-auto" >
+          <p class="num">
+            03.
+          </p>
+          <p class="text">
+            Cobertura De <br>Gimnasios
           </p>
         </div>
       </div>
@@ -210,23 +218,32 @@
 
     <div class="row d-flex align-items-center ">
       <div class="col-12 col-md-4 mb-3">
-        <div class="card text-center align-items-center h-100 w-100 py-4 mx-auto" style="max-width: 350px; max-height: 200px; border-radius: 18px ; border-color: #FF7E82; background-color: #FEE5E4;">
-          <p style="font-family: Walsheim-Bold;  color: #FF7E82; font-size: 1.875rem;">
-            04. <br>Masajes En La <br>Oficina
+        <div class="card card-beneficios text-center align-items-center h-100 w-100 py-4 mx-auto" >
+          <p class="num">
+            04.
+          </p>
+          <p class="text">
+            Masajes En La <br>Oficina
           </p>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-3">
-        <div class="card text-center align-items-center h-100 w-100 py-4 mx-auto" style="max-width: 350px; max-height: 200px; border-radius: 18px ; border-color: #FF7E82; background-color: #FEE5E4;">
-          <p style="font-family: Walsheim-Bold;  color: #FF7E82; font-size: 1.875rem;">
-            05. <br>Desayuno <br>Saludable
+        <div class="card card-beneficios text-center align-items-center h-100 w-100 py-4 mx-auto" >
+          <p class="num">
+            05.
+          </p>
+          <p class="text">
+            Desayuno <br>Saludable
           </p>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-3">
-        <div class=" card text-center align-items-center h-100 w-100 py-4 mx-auto" style="max-width: 350px; max-height: 200px; border-radius: 18px ; border-color: #FF7E82; background-color: #FEE5E4;">
-          <p  style="font-family: Walsheim-Bold;  color: #FF7E82; font-size: 1.875rem;">
-            06. <br> Budget Para Consumir <br>Capacitaciones
+        <div class=" card card-beneficios text-center align-items-center h-100 w-100 py-4 mx-auto" >
+          <p class="num" >
+            06.
+          </p>
+          <p class="text">
+            Budget Para Consumir <br>Capacitaciones
           </p>
         </div>
       </div>
@@ -236,7 +253,7 @@
 </div>
 
 <div class="container" id="testimonios">
-  <h2 class="my-5" style="font-family: Walsheim-Bold; " >Testimonios</h2>
+  <h2 class="my-5 wls-bold">Testimonios</h2>
 
   <div class="row d-flex pb-3">
     <div class="col-6" >
@@ -247,19 +264,18 @@
   </div>
   </div>
 
-  <div class="container " style="border-radius: 64px ; background-color: #FFF3F3;" id="sumarte">
+  <div class="container " id="sumarte">
     <div class="row m-3 py-4 ">
-      <div class="col-4 container-img-sumarse" style="position: relative; left: 20px;">
-        <img class="w-100" style=" object-fit:fill;"src="/images/queresSumarte.png">
+      <div class="col-4 container-img-sumarse">
+        <img class="w-100" src="/images/queresSumarte.png" alt="queres_sumarte_img">
       </div>
-      <div class="col-8" style="background-color:#FFCBCD ; border-radius: 0px 50px 50px 0px; ">
-        <div class="col-12 h-100 d-flex justify-content-center" style="flex-direction: column; align-items: center;">
+      <div class="col-8 sumarte-blob">
+        <div class="col-12 h-100 d-flex justify-content-center" >
           <div>
-            <h2 style="font-family: Walsheim-Bold;">¿Querés sumarte a BE-IÚNIGO?</h2>
+            <h2 class="wls-bold">¿Querés sumarte a BE-IÚNIGO?</h2>
             <button
-            class="btn  mt-2 btn-sumarse" style="background-color: #1B26BC; border-radius: 36px;" type="button">
-              <a href="/" class="text-decoration-none h4"
-              style=" font-family: Walsheim-Regular; color: white;">
+            class="btn mt-2 btn-sumarse" type="button">
+              <a href="/" class="text-decoration-none h4 wls-regular text-white">
               Postulate acá
               </a>
             </button>
@@ -270,15 +286,14 @@
 
   </div>
 </div>
-<div id="container-sumarse">
-  <div class="container mb-4" style="border-radius: 64px ; background-color: #FFCBCD;" id="sumarte-cell">
+<div id="container-sumarse" class="container">
+  <div class="container mb-4 " id="sumarte-cell">
     <div class="row m-3 py-4 ">
-      <div class="col" style="background-color:#FFCBCD ; border-radius:64px;  ">
-            <h2 style="font-family: Walsheim-Bold;">¿Querés sumarte a BE-IÚNIGO?</h2>
+      <div class="col" >
+            <h2 class="wls-bold">¿Querés sumarte a BE-IÚNIGO?</h2>
             <button
-            class="btn  mt-2 btn-sumarse alig-items-center" style="background-color: #1B26BC; border-radius: 36px;" type="button">
-              <a href="/" class="text-decoration-none h4"
-              style=" font-family: Walsheim-Regular; color: white;">
+            class="btn mt-2 btn-sumarse alig-items-center" type="button">
+              <a href="/" class="text-decoration-none h4 wls-regular text-white">
               Postulate acá
               </a>
             </button>   
@@ -289,30 +304,30 @@
 
 
 
-<div class="container-fluid" style="background-color: #02051A;">
+<div class="container-fluid" id="footer">
   <div class="container">
     <div class="row align-items-center py-4 ">
       <div class="col-12 col-md-4 text-center" >
-        <img class="w-100 " style="max-width:216px ;" src="/images/iunigo_blanco.png">
+        <img class="w-100 " src="/images/iunigo_blanco.png" id="footer-brand-img">
       </div>
       
       <div class="col-12 col-md-8 ">
-        <div  style=" align-content: center; ">
+        <div class="align-content-center">
           <div class="row d-flex justify-content-between  ">
             <a class="col-2" href="https://www.facebook.com/iunigoseguros/">
-              <img style="max-height: 40px; object-fit: contain;"  src="/images/facebook.png">
+              <img src="/images/facebook.png" id="footer-icon">
             </a>
             <a class="col-2" href="https://twitter.com/iunigoseguros">
-              <img style="max-height: 40px; object-fit: contain;"  src="/images/twitter.png">
+              <img src="/images/twitter.png" id="footer-icon">
             </a>
             <a class="col-2" href="https://www.youtube.com/channel/UCsrL934nP5zHX9jM3TsE6OA"> 
-              <img style="max-height: 40px; object-fit: contain;"  src="/images/youtube.png">
+              <img src="/images/youtube.png" id="footer-icon">
             </a>
             <a class="col-2" href="https://www.instagram.com/iunigo/">
-              <img style="max-height: 40px; object-fit: contain;"  src="/images/instagram.png">
+              <img src="/images/instagram.png" id="footer-icon">
             </a>
             <a class="col-2" href="https://www.linkedin.com/company/iunigo/">
-              <img style="max-height: 40px; object-fit: contain;"  src="/images/linkedin.png">
+              <img src="/images/linkedin.png" id="footer-icon">
             </a>
           </div>
       </div>

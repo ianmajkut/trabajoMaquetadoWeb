@@ -1,71 +1,223 @@
+:root {
+    --background-color-primer-seccion: #FFCBCD;
+    --color-azul: #1B26BC;
+    --background-color-segunda-seccion: #F3F2F5;
+    --background-color-tercer-seccion: #E8E9F7;
+    --background-color-beneficios-seccion: #F8F8F8;
+    --background-color-ultima-seccion: #FFCBCD;
+    --background-color-footer: #02051A;
+}
+
 @font-face {
           font-family:Walsheim-Bold-Oblique ;
-          src: url("/fonts/GT-Walsheim-Bold-Oblique.ttf");
+          src: url("../fonts/GT-Walsheim-Bold-Oblique.ttf");
 }
 
 @font-face {
           font-family:Walsheim-Bold ;
-          src: url("/fonts/GT-Walsheim-Bold.ttf");
+          src: url("../fonts/GT-Walsheim-Bold.ttf");
 }
 
 @font-face {
           font-family:Walsheim-Light-Oblique ;
-          src: url("/fonts/GT-Walsheim-Light-Oblique.ttf");
+          src: url("../fonts/GT-Walsheim-Light-Oblique.ttf");
 }
 
 @font-face {
           font-family:Walsheim-Light ;
-          src: url("/fonts/GT-Walsheim-Light.ttf");
+          src: url("../fonts/GT-Walsheim-Light.ttf");
 }
 
 @font-face {
           font-family:Walsheim-Regular-Oblique ;
-          src: url("/fonts/GT-Walsheim-Regular-Oblique.ttf");
+          src: url("../fonts/GT-Walsheim-Regular-Oblique.ttf");
 }
 
 @font-face {
           font-family:Walsheim-Regular;
-          src: url("/fonts/GT-Walsheim-Regular.ttf");
+          src: url("../fonts/GT-Walsheim-Regular.ttf");
+}
+
+.wls-bold{
+    font-family:Walsheim-Bold ; 
+}
+
+.wls-regular{
+    font-family:Walsheim-Regular ; 
 }
 
 .black-text {
-          color: #03051b;
+    color: #03051b;
 }
 .navbar-collapse {
-          justify-content: center; 
+    justify-content: center; 
 }
 
 #navbar-nav > li > a {
-          color: #03051b;
-          font-size: 16px;
-          font-weight: bold;
-          font-family:Walsheim-Light;
+    color: #03051b;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:Walsheim-Light;
 }
 
+.navbar .container .navbar-brand img{
+    height: 69px;
+    width: 255px;
+    object-fit: contain;
+}
 
-.cards-proceso{
-        max-height: 350px ;
-        max-width: 256px;
-          
-          
+.primer-seccion{
+    background-color: var(--background-color-primer-seccion);
+}
+
+.be-iunigo-text{
+    color: var(--color-azul); 
+}
+
+.body-text-primer-seccion{
+    font-size:3rem ;
+    color: #FFFFFF; 
+}
+
+#postulate{
+    background-color: var(--color-azul);
+    border-radius: 36px;
+}
+
+.segunda-seccion{
+    background-color: var(--background-color-segunda-seccion);
+}
+
+.img-quines-somos{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.body-regular-text{
+    font-family: Walsheim-Regular;
+    line-height: 1.5 !important;
+    font-size: 1.25rem;
+}
+
+.tercer-seccion{
+    background-color: var(--background-color-tercer-seccion);
+}
+
+.card{
+    border-radius: 18px ;
+}
+
+.card-proceso{
+    border-color: #9B9BA5;
+}
+
+.card img{
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+.card-title{
+    font-family: Walsheim-Bold;
+    font-size: 1.9375rem;
+}
+
+.card-text{
+    font-family: Walsheim-Regular; 
+    font-size: 1.25rem;
+}
+
+.que-buscamos-valoramos-text{
+    color: #FF7E82; 
+    font-size: 1.25rem;
 }
 
 .container-beneficios{
-          background-image: url("/images/fondo.jpg");
-          background-size: 100% auto;
-          background-repeat: no-repeat;
-          background-position: bottom;
+    background-color: var(--background-color-beneficios-seccion);
+    background-image: url("../images/fondo.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-.container-sumarte{
+.card-beneficios{
+    max-width: 350px; 
+    max-height: 220px;  
+    border-color: #FF7E82; 
+    background-color: #FEE5E4;
+}
+
+.card-beneficios .num{
+    font-family: Walsheim-Bold;  
+    color: #FF7E82;
+    font-size: 2.0625rem;
+}
+.card-beneficios .text{
+    font-family: Walsheim-Bold;  
+    color: #FF7E82;
+    font-size: 1.8125rem;
+}
+
+#sumarte{
+    border-radius: 64px ; 
+    background-color: #FFF3F3;
+}
+
+#sumarte-cell{
+    border-radius: 60px ; 
+    background-color: var(--background-color-ultima-seccion);
+}
+
+.container-img-sumarse{
+    position: relative; 
+    left: 20px;
+}
+
+.container-img-sumarse img{
+    
+    object-fit: fill;
+}
+
+.sumarte-blob{
+    background-color:var(--background-color-ultima-seccion) ; 
+    border-radius: 0px 50px 50px 0px; 
+}
+
+.sumarte-blob > .d-flex{
+    flex-direction: column; 
+    align-items: center;
+}
+
+.btn-sumarse{
+    background-color: var(--color-azul); 
+    border-radius: 36px;
+}
+
+.container-sumarse{
           height: 180px;
           border-radius: 64px 64px 64px 64px;
           
 }
 
-.interlineado-texto {
-    line-height: 1.5 !important;
+#sumarte-cell{
+    background-color:var(--background-color-ultima-seccion) ; 
+    border-radius:64px; 
 }
+
+#footer{
+    background-color: var(--background-color-footer);
+}
+
+#footer-brand-img{
+    max-height: 185px;
+    max-width:216px ;
+}
+
+#footer-icon{
+    max-height: 40px; 
+    object-fit: contain;
+}
+
 
 @media screen and (max-width: 991px) {
     .container-img-sumarse > img {
